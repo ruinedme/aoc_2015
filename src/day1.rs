@@ -13,13 +13,12 @@ pub fn run_day1(inputs: &String) {
 }
 
 fn day1_1(inputs: &String) -> isize {
-    
     let mut floor: isize = 0;
     for c in inputs.chars() {
         match c {
             '(' => floor += 1,
             ')' => floor -= 1,
-            _ => ()
+            _ => (),
         }
     }
     return floor;
@@ -27,7 +26,7 @@ fn day1_1(inputs: &String) -> isize {
 
 fn day1_2(inputs: &String) -> usize {
     let mut floor: isize = 0;
-    for (i,c) in inputs.chars().enumerate() {
+    for (i, c) in inputs.chars().enumerate() {
         match c {
             '(' => floor += 1,
             ')' => {
@@ -35,8 +34,8 @@ fn day1_2(inputs: &String) -> usize {
                 if floor < 0 {
                     return i + 1;
                 }
-            },
-            _ => ()
+            }
+            _ => (),
         }
     }
     return 0;
