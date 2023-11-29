@@ -3,7 +3,7 @@
 version = 3
 
 [[package]]
-name = "aoc_template"
+name = "aoc_2015"
 version = "0.1.0"
 dependencies = [
  "timer",
