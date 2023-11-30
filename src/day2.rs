@@ -1,4 +1,4 @@
-use regex::Regex;
+use regex_lite::Regex;
 use timer::profile;
 
 pub fn run_day2(inputs: &String) {

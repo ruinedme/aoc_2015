@@ -6,6 +6,6 @@ edition = "2021"
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
 [dependencies]
-regex = "1.10.2"
 timer = { path = "./timer" }
 md5 = { path = "./md5" }
+regex-lite = "0.1.5"
