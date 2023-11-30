@@ -1,4 +1,4 @@
-use md5::{md5hash, to_hex};
+use md5::md5hash;
 use timer::profile;
 
 pub fn run_day4(inputs: &String) {
