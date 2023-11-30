@@ -2,6 +2,7 @@ use std::collections::HashMap;
 
 use timer::profile;
 
+// Note at time of implementation the rust regex and regex_lite crate both do not support backreferences
 pub fn run_day5(inputs: &String) {
     profile! {
         let day5_1 = day5_1(&inputs);
