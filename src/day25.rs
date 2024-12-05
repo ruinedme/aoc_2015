@@ -13,12 +13,13 @@ pub fn run_day25(inputs: &String) {
 }
 
 fn day25_1(inputs: &String) -> usize {
-    let mut code: usize = inputs.parse().unwrap();
+    let mut code: usize = 20151125;
     let m1: usize = 252533;
     let m2: usize = 33554393;
 
-    let target_row: usize = 2978;
-    let target_col: usize = 3083;
+    let lines: Vec<&str> = inputs.lines().collect();
+    let target_row: usize = lines[0].parse().unwrap();
+    let target_col: usize = lines[1].parse().unwrap();
 
     let mut current_row: usize = 1;
     let mut highest_row: usize = 1;
