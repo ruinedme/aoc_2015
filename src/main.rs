@@ -42,7 +42,7 @@ fn main() {
         // 22 => day22::run_day22(&inputs),
         // 23 => day23::run_day23(&inputs),
         // 24 => day24::run_day24(&inputs),
-        // 25 => day25::run_day25(&inputs),
+        25 => day25::run_day25(&inputs),
         _ => panic!("Invalid Day"),
     }
 }

@@ -33,4 +33,4 @@ Compiler Settings: `cargo build --release (rustc -C opt-level=3)`
 |22|||
 |23|||
 |24|||
-|25|||
+|25|92.0947μs|0|
